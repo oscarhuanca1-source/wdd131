@@ -1,0 +1,156 @@
+/* <weight>: Use a value from 100 to 900 */
+/* <uniquifier>: Use a unique and descriptive class name */
+
+* {
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#course-title {
+    display: block;
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 1rem 0;
+    border: 10px;
+    background-color: #1D4D72;
+    color: rgb(255, 255, 255);
+}
+
+nav {
+    background-color: #a6d3b1;
+    font-size: 1.5em;
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 5px
+}
+
+nav a {
+    padding: 1rem;
+    text-decoration: none;
+    color: black;  
+}
+
+nav ul {
+    display: flex;
+    text-align: center;
+    list-style-type: none;
+    padding: 1rem;
+}
+
+nav a:hover {
+    color: whitesmoke;
+    background-color: rgb(29, 77, 114);
+    border-radius: 10px;
+    transition: 0.8s;
+}
+
+main {
+    background-color: rgba(0, 0, 0, 0.05);
+    padding: 3rem 4rem;
+}
+
+.name h1 {
+    text-align: center;
+    font-size: 3rem;
+    padding: 0 0 2rem 0;
+}
+
+.card-grid {
+    padding: 0 50px;
+    display: grid;
+    grid-template-columns: 1fr .5fr;
+    gap: 50px;
+}
+
+.cards {
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 10px gray;
+}
+
+.cards h2 {
+    color: whitesmoke;
+    padding: 10px 0;
+    background-color: #1D4D72;
+    border-top: 4px solid #1D4D72;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-size: 2rem;
+}
+
+.about-me-grid {
+    grid-template-columns: 1fr .4fr;
+    border-bottom:3px solid #1D4D72;
+}
+
+.pisco-grid {
+    grid-template-columns: .4fr 1fr;
+}
+
+.about-me-grid, .pisco-grid {
+    display: grid;
+    gap: 30px;
+    padding: 20px;
+}
+
+.about-me-grid p, .pisco-grid p {
+    font-size: 1.2rem;
+    text-align: justify;
+    align-self: center;
+}
+
+.cards h3 {
+    font-size: 1.6rem;
+    padding: 20px 0 0 0;
+    color: #1D4D72;
+}
+
+.about-me-grid img, .pisco-grid img {
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+    align-self: center;
+    min-width: 150px;
+    max-width: 400px;
+    height: auto;
+}
+
+.resources ul {
+    list-style-type: none;
+    text-align: left;
+    padding: 20px 0;
+}
+
+.resources li {
+    padding: 1.5rem 2rem;
+}
+
+.resources a {
+    font-size: 1.2rem;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+
+.resources a:hover {
+    color:#1D4D72;
+    transform: scale(1.25);
+    transition: .5s;
+    transform-origin: left center;
+}
+
+.card-information {
+    padding: 20px;
+}
+
+footer {
+    background-color: #1D4D72;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.2rem;
+    color: whitesmoke;
+}
