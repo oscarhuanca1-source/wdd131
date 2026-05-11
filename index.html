@@ -3,9 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 131</title>
+    <title>WDD 131 - Dynamic Web Fundamentals - Oscar Huanca</title>
+    <meta name="description" content="WDD 131 || Dynamic Web Fundamentals || Oscar Huanca || This page is to develop this course. It contains information about me, my favorite writing, course help links, and a link to the final project. ">
+    <meta name="author" content="Oscar Huanca">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <h1>WDD 131 - Oscar Huanca</h1>
+    <header>
+        <span id="course-title">WDD 131 – Dynamic Web Fundamentals</span>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/oscar-alejandro-huanca-maldonado-439781163/">Linkedin</a></li>
+            <li><a href="https://byupw.instructure.com/">Canvas</a></li>
+            <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/mosiah/2?lang=eng&id=p41-note41_d_p1#p41">Scripture</a></li>
+            <li><a href="">Final Project</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="name">
+        <h1>Oscar Alejandro Huanca Maldonado</h1>
+        </div>
+        <div class="card-grid">
+            <div class="cards">
+                <section>
+                    <h2>About me</h2>
+                    <div class="card-information">
+                        <div class="about-me-grid">
+                            <p>My name is Oscar. I was born and raised in Pisco, a city located about four hours south of Lima, the capital of Peru. I've worked as an industrial electrician, primarily in the oil and gas sector. I'm happily married to a wonderful woman, with whom I've lived for ten years. We have three beautiful children who motivate me to strive to be better and give them the best.</p>
+                            <img src="images/my-family.png" alt="Oscar Huanca's Family">
+                        </div>
+                        <h3>Pisco, Perú</h3>
+                        <div class="pisco-grid">
+                            <img src="images/san-martin-dream.png" alt="The San Martin's dream">
+                            <p>Peru is a very diverse country in terms of climate, culture, and cuisine. On the Peruvian coast lies the city of Pisco, known as the birthplace of the Peruvian flag. According to history, the liberator Don José de San Martín landed there and, while resting in a palm tree, was inspired by some birds to create the first flag of Peru.</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="cards">
+                <section>
+                    <div class="card-h2">
+                        <h2>Web Deb Resources</h2>  
+                    </div>
+                    <div class="resources">
+                        <ul>
+                            <li><a href="https://dev.to/">Dev.to Community</a></li>
+                            <li><a href="https://www.smashingmagazine.com/">Smashing Magazine</a></li>
+                            <li><a href="https://css-tricks.com/">CSS Tricks</a></li>
+                            <li><a href="https://www.w3schools.com/">W3 Schools</a></li>
+                            <li><a href="https://www.udemy.com/">Udemy</a></li>
+                            <li><a href="https://picsum.photos/">Lorem Picsum Image Placeholder</a></li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>© 2026 Oscar Huanca, Perú</p>
+        <p id="lastModified"></p>
+        <script>
+            document.getElementById("lastModified").textContent ="Last Modification: " + document.lastModified;
+        </script>
+    </footer>
 </body>
 </html>
